@@ -1,0 +1,88 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body e Fonte */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    text-align: center; /* Centraliza o texto globalmente */
+}
+
+/* Header */
+.header {
+    background: #0074d9;
+    color: #fff;
+    padding: 1rem 2rem;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+.main-content {
+    padding: 2rem;
+}
+
+.welcome h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.games ul {
+    list-style: none;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.games li {
+    margin: 0.5rem 0;
+}
+
+.cta .btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #ff4136;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.cta .btn:hover {
+    background: #ff725c;
+}
+
+/* Footer */
+.footer {
+    background: #111;
+    color: #fff;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
